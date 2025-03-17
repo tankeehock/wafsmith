@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+import { program } from 'commander';
+import Create from '../src/commands/create.js';
+import Evaluate from '../src/commands/evaluate.js';
+import Extract from "../src/commands/extract.js"
+import dotenv from 'dotenv';
+import Aggregate from '../src/commands/aggregate.js';
+
+dotenv.config();
+// Define global options
+program.version('1.0.0').description('WAFSmith: LLM based WAF Rule Creation Framework');
+program.addCommand(Create);
+program.addCommand(Evaluate);
+program.addCommand(Extract);
+program.addCommand(Aggregate);
+// Parse arguments
+program.parse(process.argv);

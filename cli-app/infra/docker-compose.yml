@@ -1,0 +1,96 @@
+x-defaults: &default-settings
+  environment:
+    SERVERNAME: localhost
+    #############################################
+    # CRS Variables
+    #############################################
+    # Paranoia Level
+    PARANOIA: 1
+    # Replaces PARANOIA as of CRS 4
+    BLOCKING_PARANOIA: 1
+    # Inbound and Outbound Anomaly Score Threshold
+    ANOMALY_INBOUND: 5
+    ANOMALY_OUTBOUND: 4
+    # Executing Paranoia Level
+    # - EXECUTING_PARANOIA=2
+    #
+    # Replaces EXECUTING_PARANOIA as of CRS 4
+    # - DETECTION_PARANOIA=2
+    #
+    # New in CRS 4
+    REPORTING_LEVEL: 5
+
+    #######################################################
+    # Reverse Proxy mode
+    # (only available if SETPROXY was enabled during the
+    # parent ModSecurity image)
+    #######################################################
+    # PROXYLOCATION: Application Backend of Reverse Proxy
+    # PROXYLOCATION: http://app:8000/
+    #
+    # If needed: add own httpd-proxy.conf (only available if SETPROXY
+    # was enabled during build of parent ModSecurity image)
+    #  - ./httpd-proxy.conf:/usr/local/apache2/conf/extra/httpd-proxy.conf
+
+    #######################################################
+    # Various CRS Variables with Default Values
+    #######################################################
+    # ENFORCE_BODYPROC_URLENCODED: 1
+    # ALLOWED_METHODS: GET HEAD POST OPTIONS
+    # ALLOWED_REQUEST_CONTENT_TYPE: '|application/x-www-form-urlencoded| |multipart/form-data| |multipart/related| |text/xml| |application/xml| |application/soap+xml| |application/json| |application/cloudevents+json| |application/cloudevents-batch+json|'
+    # ALLOWED_REQUEST_CONTENT_TYPE_CHARSET: 'utf-8|iso-8859-1|iso-8859-15|windows-1252'
+    # ALLOWED_HTTP_VERSIONS: HTTP/1.0 HTTP/1.1 HTTP/2 HTTP/2.0
+    # RESTRICTED_EXTENSIONS: .asa/ .asax/ .ascx/ .axd/ .backup/ .bak/ .bat/ .cdx/ .cer/ .cfg/ .cmd/ .com/ .config/ .conf/ .cs/ .csproj/ .csr/ .dat/ .db/ .dbf/ .dll/ .dos/ .htr/ .htw/ .ida/ .idc/ .idq/ .inc/ .ini/ .key/ .licx/ .lnk/ .log/ .mdb/ .old/ .pass/ .pdb/ .pol/ .printer/ .pwd/ .rdb/ .resources/ .resx/ .sql/ .swp/ .sys/ .vb/ .vbs/ .vbproj/ .vsdisco/ .webinfo/ .xsd/ .xsx/
+    # RESTRICTED_HEADERS_BASIC: /content-encoding/ /proxy/ /lock-token/ /content-range/ /if/ /x-http-method-override/ /x-http-method/ /x-method-override/
+    # RESTRICTED_HEADERS_EXTENDED: /accept-charset/
+    # STATIC_EXTENSIONS: /.jpg/ /.jpeg/ /.png/ /.gif/ /.js/ /.css/ /.ico/ /.svg/ /.webp/
+
+    #######################################################
+    # CRS Variables with Default Value unlimited
+    #######################################################
+    # MAX_NUM_ARGS: 255
+    # ARG_NAME_LENGTH: 100
+    # ARG_LENGTH: 400
+    # TOTAL_ARG_LENGTH: 64000
+    # MAX_FILE_SIZE: 1048576
+    # COMBINED_FILE_SIZES: 1048576
+    MODSEC_AUDIT_LOG: "/tmp/modsecurity/modsec_audit.log"
+    MODSEC_AUDIT_STORAGE_DIR: "/tmp/modsecurity/"
+    MODSEC_AUDIT_ENGINE: "On"
+    #######################################################
+    # Volumes for ModSecurity Tuning
+    #######################################################
+  volumes:
+    - ./rules-tuning/REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf:/etc/modsecurity.d/owasp-crs/rules/REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf
+    - ./rules-tuning/RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf:/etc/modsecurity.d/owasp-crs/rules/RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf
+
+    #######################################################
+    # Add TLS server certificate and key
+    # (only available if SETPROXY was enabled during the
+    # parent ModSecurity image)
+    #######################################################
+    #  - ./server.crt:/usr/local/apache2/conf/server.crt
+    #  - ./server.key:/usr/local/apache2/conf/server.key
+
+services:
+  web-app:
+    build:
+      context: web-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  crs-nginx:
+    image: owasp/modsecurity-crs:nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./rules:/opt/owasp-crs/rules
+      - ./nginx/nodejs.conf:/etc/nginx/conf.d/nodejs.conf
+      # - ./nginx/logs:/var/log/nginx
+      - ./modsecurity/tmp/:/tmp/modsecurity/
+      # - ./modsecurity/modsecurity.conf:/etc/modsecurity.d/modsecurity.conf
+      # - ./nginx/proxy_backend.conf:/etc/nginx/includes/proxy_backend.conf
+    depends_on:
+      - web-app
+    <<: *default-settings
