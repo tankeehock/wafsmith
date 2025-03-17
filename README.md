@@ -237,7 +237,7 @@ wafsmith extract ../data/logs/sample-logs/xss-sample-50.log -o ../data/logs/extr
 
 ## Troubleshoot
 
-1. Issues with Docker persmissions
+1. Issues with Docker persmissions  
 Depending on how your Docker is installed, `wafsmith` might have issues trying to instantiate the docker containers. As such, these entries in the in the docker compose file has been commented out. If you want to access the log files, do ensure that you can mount the folders from your docker. 
 
 ``` bash
