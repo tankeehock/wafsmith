@@ -228,7 +228,7 @@ wafsmith extract ../data/logs/sample-logs/sample.log -o ../data/logs/extracted-p
 wafsmith aggregate ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-payloads.txt -r ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules.conf -t ../data/experiment/business-traffic/ -s ./infra -o ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules-aggregated.conf -e ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-after-aggregation.txt -k ${API_KEY} -b ${OPENAPI_ENDPOINT} -l ${OPENAPI_MODEL} -m ${METHOD} -p ${POSITION} -x 50
 ```
 
-4. Invoke `extract` Workflow
+4. Invoke `Extract` Workflow
 
 ``` bash
 # extract
