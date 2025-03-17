@@ -9,7 +9,8 @@ Whitepaper: https://docs.google.com/document/d/1Uf7WtzsISM9nGY8pc53-eoZa1ce8hNAs
 ![setup](./wiki/images/setup.gif)
 
 ### Prerequisites
-1. NodeJS (NPM)
+1. NodeJS (NPM)  
+_Tested with Node v22.14.0_  
 
 ``` bash
 cd cli-app
@@ -37,6 +38,13 @@ npm install -g
 ```
 
 ## Usage
+
+**Setup up the following enviornment variables**  
+``` bash
+export OPENAPI_ENDPOINT="https://api.openai.com/v1"
+export OPENAPI_MODEL="o1"
+export API_KEY="hello-world"
+```
 
 ``` bash
 wafsmith -h
