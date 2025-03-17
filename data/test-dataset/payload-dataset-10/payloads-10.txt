@@ -1,0 +1,10 @@
+onAbort
+onActivate
+onBeforeCut
+&#x00003C;
+&#X000003C;
+\x3c
+\x3C
+#Google.com:
+onwebkitanimationiteration
+onwebkittransitionend

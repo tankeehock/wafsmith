@@ -1,0 +1,6 @@
+&#X000003C;
+onwheel
+/////example.com
+navigator.vibrate(500)
+<A HREF="http://www.gohttp://www.google.com/ogle.com/">XSS</A>
+\x3c

