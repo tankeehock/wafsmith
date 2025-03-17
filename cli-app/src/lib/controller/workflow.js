@@ -441,6 +441,8 @@ export async function PayloadExtractionWorkflow(workflowClient, logs, outputFile
       PrintToConsole(`\nExtracted ${payloads.length} payloads out of ${logs.length} entries`, COLORS.GREEN);
       WriteLinesToFile(outputFile, payloads);
       PrintToConsole(`\nWritten successfully payloads to ${outputFile}`, COLORS.DEFAULT);
+    } else {
+      PrintToConsole(`\nNo payloads extracted from ${logs.length} entries`, COLORS.YELLOW);
     }
 
   } catch (err) {

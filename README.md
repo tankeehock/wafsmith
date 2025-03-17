@@ -40,43 +40,151 @@ npm install -g
 
 ``` bash
 wafsmith -h
+
+Usage: wafsmith [options] [command]
+
+WAFSmith: LLM based WAF Rule Creation Framework
+
+Options:
+  -V, --version                           output the version number
+  -h, --help                              display help for command
+
+Commands:
+  create [options] <input>                Create ModSecurity Rules
+  evaluate [options] <payload-directory>  Evaluate deployed WAF rules against a list of payloads
+  extract [options] <input>               Extract payload(s) from logs
+  aggregate [options] <input>             Optimizing ModSecurity Rules
+  help [command]                          display help for command
 ```
 
 ### extract
 
-![extract](./wiki/images/extract.png)
 
 ``` bash
 wafsmith extract -h
+
+Usage: wafsmith extract [options] <input>
+
+Extract payload(s) from logs
+
+Arguments:
+  input                       Input directory / file containing the Nginx log files
+
+Options:
+  -o, --output <output-file>  Specify the output file for the newly generated rule(s) if any
+  -k, --api-key <key>         OpenAI API Key
+  -b, --base-url <base>       OpenAI SDK Endpoint
+  -l, --model <model>         OpenAI Model
+  -x, --threads <threads>     Specify the number of threads to be used during the rule generation
+                              process. Default is 10 (default: 10)
+  -h, --help                  display help for command
 ```
+
+![extract](./wiki/images/extract.png)
+
 
 ### evaluate
 
-![evaluate](./wiki/images/evaluate.png)
-
 ``` bash
 wafsmith evaluate -h
+
+Usage: wafsmith evaluate [options] <payload-directory>
+
+Evaluate deployed WAF rules against a list of payloads
+
+Arguments:
+  payload-directory              Input directory / file containing the payloads
+
+Options:
+  -e, --evaded <evaded-file>     Specify the output file for evaded payload(s) if any
+  -s, --setup <setup-directory>  Specify the directory which contains the docker compose enviornment
+                                 setup
+  -t, --traffic <traffic>        Specify directory / file containing business traffic content for
+                                 simulation
+  -p, --position <position>      Specify the postion of the payload in the HTTP request. Default is
+                                 url-parameters (default: "url-parameters")
+  -m, --method <method>          Specify the HTTP method for the payload. Default is GET. (default:
+                                 "GET")
+  -x, --threads <threads>        Specify the number of threads to be used during the rule generation
+                                 process. Default is 10 (default: 10)
+  -h, --help                     display help for command
 ```
+
+![evaluate](./wiki/images/evaluate.png)
 
 ### create
 
-![create](./wiki/images/create.png)
-
 ``` bash
 wafsmith create -h
+
+Usage: wafsmith create [options] <input>
+
+Create ModSecurity Rules
+
+Arguments:
+  input                          Input directory / file containing the payloads
+
+Options:
+  -o, --output <output-file>     Specify the output file for the newly generated rule(s) if any
+  -e, --evaded <evaded-file>     Specify the output file for evaded payload(s) if any
+  -s, --setup <setup-directory>  Specify the directory which contains the docker compose enviornment
+                                 setup
+  -t, --traffic <traffic>        Specify directory / file containing business traffic content for
+                                 simulation
+  -k, --api-key <key>            OpenAI API Key
+  -b, --base-url <base>          OpenAI SDK Endpoint
+  -l, --model <model>            OpenAI Model
+  -p, --position <position>      Specify the postion of the payload in the HTTP request. Default is
+                                 url-parameters (default: "url-parameters")
+  -m, --method <method>          Specify the HTTP method for the payload. Default is GET. (default:
+                                 "GET")
+  -x, --threads <threads>        Specify the number of threads to be used during the rule generation
+                                 process. Default is 10 (default: 10)
+  -h, --help                     display help for command
+
 ```
+
+![create](./wiki/images/create.png)
 
 ### aggregate
 
-![aggregate](./wiki/images/aggregate.png)
-
 ``` bash
 wafsmith aggregate -h
+
+Usage: wafsmith aggregate [options] <input>
+
+Optimizing ModSecurity Rules
+
+Arguments:
+  input                          Input directory / file containing the list of payloads that the
+                                 rules will are designed to catch
+
+Options:
+  -r, --rules <rules>            Input directory / file containing the list of rules that will be
+                                 aggregated
+  -o, --output <output-file>     Specify the output file for the newly generated rule(s) if any
+  -e, --evaded <evaded-file>     Specify the output file for evaded payload(s) if any
+  -s, --setup <setup-directory>  Specify the directory which contains the docker compose enviornment
+                                 setup
+  -t, --traffic <traffic>        Specify directory / file containing business traffic content for
+                                 simulation
+  -k, --api-key <key>            OpenAI API Key
+  -b, --base-url <base>          OpenAI SDK Endpoint
+  -l, --model <model>            OpenAI Model
+  -p, --position <position>      Specify the postion of the payload in the HTTP request. Default is
+                                 url-parameters (default: "url-parameters")
+  -m, --method <method>          Specify the HTTP method for the payload. Default is GET. (default:
+                                 "GET")
+  -x, --threads <threads>        Specify the number of threads to be used during the rule generation
+                                 process. Default is 10 (default: 10)
+  -h, --help                     display help for command
 ```
+
+![aggregate](./wiki/images/aggregate.png)
 
 ### Sample Usage
 
-Modify the `experiment.bash` or the variables below and execute them. 
+Modify the `experiment.bash` or the variables below and execute them.
 
 __Please ensure that you are in the ./cli-app directory when using the `demo` commands / script.__
 
@@ -118,9 +226,13 @@ wafsmith extract ../data/logs/sample-logs/sample.log -o ../data/logs/extracted-p
 ``` bash
 # aggregate
 wafsmith aggregate ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-payloads.txt -r ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules.conf -t ../data/experiment/business-traffic/ -s ./infra -o ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules-aggregated.conf -e ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-after-aggregation.txt -k ${API_KEY} -b ${OPENAPI_ENDPOINT} -l ${OPENAPI_MODEL} -m ${METHOD} -p ${POSITION} -x 50
+```
 
+4. Invoke `extract` Workflow
+
+``` bash
 # extract
-wafsmith extract ../data/logs/sample-logs/sample.log -o ../data/logs/extracted-payloads/sample-extract.txt -k ${API_KEY} -b ${OPENAPI_ENDPOINT} -l ${OPENAPI_MODEL}
+wafsmith extract ../data/logs/sample-logs/xss-sample-50.log -o ../data/logs/extracted-payloads/xss-sample-50.txt -k ${API_KEY} -b ${OPENAPI_ENDPOINT} -l ${OPENAPI_MODEL}
 ```
 
 ## Troubleshoot

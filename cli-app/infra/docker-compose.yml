@@ -87,10 +87,8 @@ services:
     volumes:
       - ./rules:/opt/owasp-crs/rules
       - ./nginx/nodejs.conf:/etc/nginx/conf.d/nodejs.conf
-      # - ./nginx/logs:/var/log/nginx
+      - ./nginx/logs:/var/log/nginx
       - ./modsecurity/tmp/:/tmp/modsecurity/
-      # - ./modsecurity/modsecurity.conf:/etc/modsecurity.d/modsecurity.conf
-      # - ./nginx/proxy_backend.conf:/etc/nginx/includes/proxy_backend.conf
     depends_on:
       - web-app
     <<: *default-settings

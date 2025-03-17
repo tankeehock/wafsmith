@@ -141,3 +141,5 @@ cli-app/.env
 .vscode
 .DS_Store
 cli-app/package-lock.json
+cli-app/infra/nginx/logs
+cli-app/infra/modsecurity/tmp
