@@ -9,7 +9,8 @@ Whitepaper: https://docs.google.com/document/d/1Uf7WtzsISM9nGY8pc53-eoZa1ce8hNAs
 ![setup](./wiki/images/setup.gif)
 
 ### Prerequisites
-1. NodeJS (NPM)
+1. NodeJS (NPM)  
+_Tested with Node v22.14.0_  
 
 ``` bash
 cd cli-app
@@ -37,6 +38,13 @@ npm install -g
 ```
 
 ## Usage
+
+**Setup up the following enviornment variables**  
+``` bash
+export OPENAPI_ENDPOINT="https://api.openai.com/v1"
+export OPENAPI_MODEL="o1"
+export API_KEY="hello-world"
+```
 
 ``` bash
 wafsmith -h
@@ -228,7 +236,7 @@ wafsmith extract ../data/logs/sample-logs/sample.log -o ../data/logs/extracted-p
 wafsmith aggregate ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-payloads.txt -r ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules.conf -t ../data/experiment/business-traffic/ -s ./infra -o ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/custom-${RISK_TYPE}-modsecurity-rules-aggregated.conf -e ../data/experiment/payloadallthings/${RISK_TYPE}/output/${METHOD}/evaded-after-aggregation.txt -k ${API_KEY} -b ${OPENAPI_ENDPOINT} -l ${OPENAPI_MODEL} -m ${METHOD} -p ${POSITION} -x 50
 ```
 
-4. Invoke `extract` Workflow
+4. Invoke `Extract` Workflow
 
 ``` bash
 # extract
