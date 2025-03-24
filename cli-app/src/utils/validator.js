@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 import path from 'path';
 import {ReadAllFileContentInDirectory, ReadFile} from "./utility.js"
@@ -49,10 +48,19 @@ export async function ValidateEvaluateCommand(input, options) {
 
 export async function ValidateExtractCommand(input, options) {
     let result = await ValidateBaseCommand(options);
-    let logs = await GetContentFromPath(input);
-    result.logs = logs;
-    result.configurationMessages.push(`- ${result.logs.length} log entries found from ${input}`);
-
+    if (!ValidatePath(input)) {
+        result.errorMessages.push(`- Invalid logs path: ${input}`);
+        result.proceed = false;
+    } else {
+        let logs = await GetContentFromPath(input);
+        if(logs.length > 0) {
+            result.logs = logs;
+            result.configurationMessages.push(`- ${result.logs.length} log entries found from ${input}`);
+        } else {
+            result.errorMessages.push(`- No log entries found: ${input}`);
+            result.proceed = false;
+        }
+    }
     if (!ValidateParentDirectory(options.output) || validateIfInputIsDirectory(options.output)) {
         result.errorMessages.push(`- Invalid output file path for the extract payloads: ${options.output}`);
         result.proceed = false;
