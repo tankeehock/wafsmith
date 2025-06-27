@@ -143,3 +143,9 @@ cli-app/.env
 cli-app/package-lock.json
 cli-app/infra/nginx/logs
 cli-app/infra/modsecurity/tmp
+
+
+*.pyc
+.DS_Store
+.venv/
+__pycache__/

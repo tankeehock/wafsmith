@@ -1,0 +1,20 @@
+[project]
+name = "wafsmith"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "lxml>=6.0.0",
+    "openai>=1.93.0",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "rich>=14.0.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.1",
+]
