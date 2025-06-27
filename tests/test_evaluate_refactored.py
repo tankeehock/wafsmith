@@ -1,8 +1,6 @@
-import pytest
 import os
 import tempfile
 from unittest.mock import patch, MagicMock
-from concurrent.futures import ThreadPoolExecutor
 
 from wafsmith.cmd.evaluate import (
     process_payload,

@@ -149,3 +149,4 @@ cli-app/infra/modsecurity/tmp
 .DS_Store
 .venv/
 __pycache__/
+output/
