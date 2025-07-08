@@ -3,7 +3,7 @@ onActivate
 onBeforeCut
 &#x00003C;
 &#X000003C;
-\x3c
+wafsmith-debug
 \x3C
 #Google.com:
 onwebkitanimationiteration

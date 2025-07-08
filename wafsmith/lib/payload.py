@@ -11,7 +11,7 @@ from pydantic import BaseModel
 logger = logging.getLogger("payload")
 
 
-class Location(enum.Enum):
+class PayloadLocation(enum.Enum):
     URL_PARAMETERS = 1
     HTTP_HEADER = 2
     HTTP_BODY = 3
@@ -34,7 +34,7 @@ class Payload(BaseModel):
     method: str = "GET"
     endpoint: str
     payload: str
-    location: Location = Location.URL_PARAMETERS
+    location: PayloadLocation = PayloadLocation.URL_PARAMETERS
     encoding: Encoding = Encoding.FORM_URLENCODED
 
     def __str__(self) -> str:
@@ -55,26 +55,30 @@ class Payload(BaseModel):
         params = {}
         headers = {}
         data = None
-        if self.location == Location.URL_PARAMETERS:
+        if self.location == PayloadLocation.URL_PARAMETERS:
             params = {"payload": self.payload}
-        elif self.location == Location.HTTP_HEADER:
+        elif self.location == PayloadLocation.HTTP_HEADER:
             headers = {"x-payload": self.payload}
-        elif self.location == Location.HTTP_BODY:
+        elif self.location == PayloadLocation.HTTP_BODY:
             data = self.build_body()
             headers["Content-Type"] = self.encoding.content_type()
-
+        logger.debug(f"sending payload endpoint={self.endpoint} method={self.method} headers={headers} payload={self.payload}")
+        # proxies = {
+        #     'http': 'http://127.0.0.1:8080',
+        #     'https': 'http://127.0.0.1:8080'
+        # }
         try:
             if self.method == "GET":
-                response = requests.get(self.endpoint, headers=headers, params=params)
+                response = requests.get(self.endpoint, headers=headers, params=params, timeout=10, verify=False)
             else:  # POST
-                response = requests.post(self.endpoint, headers=headers, data=data)
+                response = requests.post(self.endpoint, headers=headers, data=data, timeout=10, verify=False)
             return response.status_code
         except Exception as e:
             logger.error(f"Error sending request: {e}")
             return 500  # Return 500 as a default error code
 
 
-def process_payload(args: Tuple[str, str, str, Location, str]) -> Tuple[str, int]:
+def process_payload(args: Tuple[str, str, str, PayloadLocation, str]) -> Tuple[str, int]:
     """Process a single payload and return the result.
 
     Args:
@@ -103,7 +107,7 @@ def process_payloads_in_parallel(
     payloads: List[str],
     method: str,
     endpoint: str,
-    location: Location,
+    location: PayloadLocation,
     threads: int,
     message: str = "payload",
 ) -> Dict[int, List[str]]:

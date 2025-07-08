@@ -7,14 +7,14 @@ from wafsmith.cmd.evaluate import (
     process_payloads_in_parallel,
     calculate_results,
     write_results_to_file,
-    Location,
+    PayloadLocation,
     Payload
 )
 
 
 def test_process_payload():
     # Test successful payload processing
-    args = ("test_payload", "GET", "http://example.com", Location.URL_PARAMETERS, "test")
+    args = ("test_payload", "GET", "http://example.com", PayloadLocation.URL_PARAMETERS, "test")
     
     with patch.object(Payload, 'send_request', return_value=200):
         payload_str, status_code = process_payload(args)
@@ -32,7 +32,7 @@ def test_process_payloads_in_parallel():
     payloads = ["payload1", "payload2", "payload3"]
     method = "GET"
     endpoint = "http://example.com"
-    location = Location.URL_PARAMETERS
+    location = PayloadLocation.URL_PARAMETERS
     threads = 2
     
     # Mock ThreadPoolExecutor.map to return predefined results
