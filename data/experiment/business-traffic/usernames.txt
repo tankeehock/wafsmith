@@ -1,4 +1,0 @@
-john
-peter
-hello
-world

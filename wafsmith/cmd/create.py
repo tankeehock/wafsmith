@@ -155,7 +155,7 @@ def create(config: EvaluateConfig):
                 else:
                     # cannot create corresponding WAF rule
                     aggregation_tracker["evaded_payloads"].append(payload)
-        logger.info(f"[{step}/{total_steps}] Tested {num_of_rules} rules, passed={len(aggregation_tracker["rules_to_optimized"])} failed={len(aggregation_tracker["evaded_payloads"])}")
+        logger.info(f"[{step}/{total_steps}] Tested {num_of_rules} rules, passed={len(aggregation_tracker["rules_to_optimized"])}")
         step += 1
         # Step 4: Merge the Rules
         with console.status("Aggregating waf rule(s)..."):

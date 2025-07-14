@@ -1,3 +1,0 @@
-<A+HREF="http://66.102.7.147/">XSS</A>
-<A+HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
-<input+type=text+value=“XSS”>
