@@ -130,6 +130,7 @@ def create_modsecurity_rule(args: Tuple[LLMAgent, str, str, PayloadLocation, str
                     break
                 else:
                     attempts += 1 
+        
         if is_valid_regular_expression:
             # continue to create the mod security rule
             modsecurity_prompt = PROMPT_CREATE.USER_PROMPT_2.replace("%%METHOD%%", method)

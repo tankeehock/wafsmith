@@ -150,3 +150,7 @@ cli-app/infra/modsecurity/tmp
 __pycache__/
 output/
 wafsmith/lib/prototype/
+
+DEMO-README.md
+uv.lock
+pyproject.toml
