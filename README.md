@@ -122,10 +122,17 @@ uv run main.py evaluate --payloads data/test-dataset/payload-dataset-100 --traff
 
 # Troubleshooting
 
-- Issues with Docker persmissions
+- Issues with Docker permissions  
+
 Depending on how your Docker is installed, wafsmith might have issues trying to instantiate the docker containers. As such, these entries in the in the docker compose file has been commented out. If you want to access the log files, do ensure that you can mount the folders from your docker.
 
 ```bash
 ./modsecurity/modsecurity.conf:/etc/modsecurity.d/modsecurity.conf
 ./nginx/logs:/var/log/nginx
+```
+
+- Failed Rules when testing
+This is likely due to Docker containers not provsiioned properly. Check your docker daemon and ensure that you can run the corresponding command in the docker directory
+``` bash
+docker-compose up
 ```
