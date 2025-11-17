@@ -150,4 +150,3 @@ cli-app/infra/modsecurity/tmp
 __pycache__/
 output/
 wafsmith/lib/prototype/
-dev.md
