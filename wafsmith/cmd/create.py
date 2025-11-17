@@ -126,7 +126,7 @@ def create(config: EvaluateConfig):
                 "create waf rule"
             )
         num_payloads, num_of_rules = Utility.count_created_rules(rules_tracker)
-        logger.info(f"{num_of_rules} WAF rules created for {num_payloads} of payloads")
+        logger.info(f"{num_of_rules} WAF rules created targeted for {num_of_rules} payloads out of the given {num_payloads} payloads")
         logger.info(f"[{step}/{total_steps}] Created initial set of rules")
         step += 1
         # Step 3: Test the Rules

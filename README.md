@@ -14,15 +14,14 @@ uv sync
 ### Extract
 
 ``` bash
-uv run main.py extract --logs data/logs/sample-logs/sample-set-50 --payloads data/demo/output/evaded-payloads/sample-extract-50.payloads --api-key $ARK_API_KEY --base-url https://ark-ap-southeast.byteintl.net/api/v3 --model ep-20250405051644-vlkt5
+uv run main.py extract --logs data/logs/xss-sample-50/ --payloads data/demo/extracted-payloads/extracted-payloads-from-sample-log.payloads --api-key $OPENAI_API_KEY --base-url https://api.openai.com/v1 --model gpt-4.1-mini
 ```
 
 ### Create
 
 ``` bash
-uv run main.py create --payloads data/demo/output/extracted-payloads --traffic data/experiment/business-traffic/ --setup ./cli-app/infra --evaded data/demo/output/evaded-payloads/get-evaded-payloads.txt --rules data/demo/output/modesecurity.rules --method GET --position url_parameter --api-key $ARK_API_KEY --base-url https://ark-ap-southeast.byteintl.net/api/v3 --model ep-20250405051644-vlkt5
+uv run main.py create --payloads data/demo/extracted-payloads --traffic data/test-dataset/business-traffic --setup ./cli-app/infra --evaded data/demo/evaded.payloads --rules data/demo/output/modesecurity.rules --method GET --position url_parameter --api-key $OPENAI_API_KEY --base-url https://api.openai.com/v1 --model gpt-4.1-mini
 ```
-
 
 ### Evaluate
 ``` bash
